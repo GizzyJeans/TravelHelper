@@ -48,7 +48,7 @@ import android.widget.Toast;
 public class MainActivity extends FragmentActivity implements
 		LoaderCallbacks<Cursor>, LocationListener {
 
-	public static final String CUSTOM_INTENT = "com.example.googletraval.custom.intent.action.FINDPLACE";
+	public static final String CUSTOM_INTENT = "com.example.travelhelper.custom.intent.action.FINDPLACE";
 
 	public class PlaceInfo {
 		private String strPlace, strAddress, strLatitude, strLongitude;
